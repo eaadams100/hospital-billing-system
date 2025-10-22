@@ -1,0 +1,74 @@
+hospital-billing-system/
+├── backend/
+│   ├── src/
+│   │   ├── config/
+│   │   │   ├── database.js
+│   │   │   └── environment.js
+│   │   ├── controllers/
+│   │   │   ├── authController.js
+│   │   │   ├── invoiceController.js
+│   │   │   ├── priceController.js
+│   │   │   └── ...
+│   │   ├── middleware/
+│   │   │   ├── auth.js
+│   │   │   ├── rbac.js
+│   │   │   └── validation.js
+│   │   ├── models/
+│   │   │   ├── index.js
+│   │   │   ├── User.js
+│   │   │   ├── Invoice.js
+│   │   │   └── ...
+│   │   ├── routes/
+│   │   │   ├── auth.js
+│   │   │   ├── invoices.js
+│   │   │   └── ...
+│   │   ├── services/
+│   │   │   ├── pdfService.js
+│   │   │   ├── priceScheduler.js
+│   │   │   └── ...
+│   │   ├── utils/
+│   │   │   ├── database.js
+│   │   │   └── helpers.js
+│   │   ├── migrations/
+│   │   │   ├── 001_create_users.js
+│   │   │   └── ...
+│   │   ├── seeds/
+│   │   │   ├── users.js
+│   │   │   └── ...
+│   │   └── app.js
+│   ├── package.json
+│   ├── Dockerfile
+│   └── docker-compose.yml
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── common/
+│   │   │   │   ├── Header.jsx
+│   │   │   │   ├── Sidebar.jsx
+│   │   │   │   └── ...
+│   │   │   ├── dashboard/
+│   │   │   │   ├── KPICard.jsx
+│   │   │   │   └── ...
+│   │   │   ├── invoices/
+│   │   │   │   ├── CreateInvoice.jsx
+│   │   │   │   └── ...
+│   │   │   └── ...
+│   │   ├── pages/
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── Patients.jsx
+│   │   │   └── ...
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   ├── context/
+│   │   │   └── AuthContext.jsx
+│   │   ├── hooks/
+│   │   │   └── useAuth.js
+│   │   ├── utils/
+│   │   │   └── formatters.js
+│   │   ├── App.jsx
+│   │   └── index.js
+│   ├── package.json
+│   └── Dockerfile
+└── README.md

@@ -1,0 +1,87 @@
+# ───────────────────────────────
+# Node.js / Express (Backend)
+# ───────────────────────────────
+backend/node_modules/
+backend/.env
+backend/.env.local
+backend/.DS_Store
+backend/dist/
+backend/coverage/
+backend/logs/
+backend/tmp/
+backend/uploads/
+backend/.vscode/
+backend/prisma/dev.db
+backend/prisma/*.log
+
+# Prisma generated client (can be rebuilt anytime)
+backend/prisma/generated/
+
+# Puppeteer / PDF temp files
+backend/pdfs/
+backend/temp/
+backend/reports/
+
+# ───────────────────────────────
+# React (Frontend)
+# ───────────────────────────────
+frontend/node_modules/
+frontend/.env
+frontend/.env.local
+frontend/build/
+frontend/dist/
+frontend/.DS_Store
+frontend/.vscode/
+frontend/coverage/
+
+# React testing output
+frontend/jest/
+frontend/.eslintcache
+
+# ───────────────────────────────
+# OS / Editor Junk Files
+# ───────────────────────────────
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+
+# ───────────────────────────────
+# Docker / Cache / Misc
+# ───────────────────────────────
+*.pid
+*.seed
+*.sqlite
+.env
+.env.*
+*.bak
+*.old
+
+# ───────────────────────────────
+# Logs & Backups
+# ───────────────────────────────
+logs/
+*.log
+*.gz
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ───────────────────────────────
+# IDE / Editor Folders
+# ───────────────────────────────
+.vscode/
+.idea/
+*.iml
+
+# ───────────────────────────────
+# Coverage / Reports / PDFs
+# ───────────────────────────────
+coverage/
+*.pdf
+*.csv
+*.xlsx
+*.zip
+*.bak
